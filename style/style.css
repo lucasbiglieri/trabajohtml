@@ -8,7 +8,7 @@ header{
 }
 
 .imagen_cabeza{
-    background-image: url(/asset/terceradimendicion..png);
+    background-image: url(../asset/terceradimendicion..png);
     width: 15%;
     background-size: contain;
     background-position: center;
@@ -72,7 +72,7 @@ ul{
 }
 
 .imagen{
-    background: url(/asset/imagen3d.jpg);
+    background: url(../asset/imagen3d.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,23 +157,23 @@ hr {
 }
 
 #imagen_producto_1{
-    background-image: url(/asset/home-casa.jpeg);
+    background-image: url(../asset/home-casa.jpeg);
 }
 
 #imagen_producto_2{
-    background-image: url(/asset/bbatman.jpg);
+    background-image: url(../asset/bbatman.jpg);
 }
 
 #imagen_producto_3{
-    background-image: url(/asset/soporte-auri.webp);
+    background-image: url(../asset/soporte-auri.webp);
 }
 
 #imagen_producto_4{
-    background-image: url(/asset/soporte-celular.jpg);
+    background-image: url(../asset/soporte-celular.jpg);
 }
 
 #imagen_producto_5{
-    background-image: url(/asset/home-casa.jpeg);
+    background-image: url(../asset/home-casa.jpeg);
 }
 
 footer{
