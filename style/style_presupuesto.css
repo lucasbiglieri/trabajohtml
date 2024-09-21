@@ -7,7 +7,7 @@ header{
 }
 
 .imagen_cabeza{
-    background-image: url(/asset/terceradimendicion..png);
+    background-image: url(../asset/terceradimendicion..png);
     width: 15%;
     background-size: contain;
     background-position: center;
