@@ -1,0 +1,208 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 8em;
+    background: linear-gradient(249deg, #3e5edd, transparent);
+    border-bottom: solid;
+
+}
+
+.imagen_cabeza{
+    background-image: url(/asset/terceradimendicion..png);
+    width: 15%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+
+.cabezera{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5em;
+    right: 30px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+}
+
+ul{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    right: 25px;
+    position: relative;
+}
+
+.navegacion {
+    width: 15%;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.navegacion:hover {
+    cursor: pointer;
+    box-shadow: #0000ff 1px 4px 10px;
+    
+}
+
+.direccion {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;   
+}
+
+.contenedor_imagen{
+    display: flex;
+    justify-content: center;
+    height: 20em;
+}
+
+.imagen{
+    background: url(/asset/imagen3d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.contenido_imagen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contenido_imagen,.texto_imagen{
+    text-shadow: black 5px 5px 10px;
+    margin: 0px;
+}
+
+.primer_bloque{
+    margin-top: 50px;
+}
+
+.primera{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    height: 15em;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: solid 2px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.destacado {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+
+}
+
+.segundo_bloque {
+    width: 100%;
+    height: 15em;
+    background-color: #3e5edd;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagen_producto {
+    width: 14em;
+    height: 12em;
+    background-repeat: round;
+    border: solid 2px;
+    box-shadow: 2px 2px 5px;
+}
+
+#imagen_producto_1{
+    background-image: url(/asset/home-casa.jpeg);
+}
+
+#imagen_producto_2{
+    background-image: url(/asset/bbatman.jpg);
+}
+
+#imagen_producto_3{
+    background-image: url(/asset/soporte-auri.webp);
+}
+
+#imagen_producto_4{
+    background-image: url(/asset/soporte-celular.jpg);
+}
+
+#imagen_producto_5{
+    background-image: url(/asset/home-casa.jpeg);
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 12em;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.redes-sociales{
+    display: flex;
+    margin: 5px;
+}
+
+.redes-sociales a {
+    color: white;
+}
+
+.imagen-red_social{
+    width: 2em;
+    height: 2em;
+}

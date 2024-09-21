@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        window.onload = function () {
+            document.getElementById("contacto").style.boxShadow="blue 1px 4px 10px"
+        }
+    </script>
+    <link rel="stylesheet" href="/Style/style_contacto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- cabezera de nuestra pagina tenemos el titulo de nuestra paguina y su logo -->
+
+    <header>
+        <div class="imagen_cabeza"></div>
+        <div class="cabezera">
+            <h1>TerceraDimensión</h1>
+        </div>
+    </header>
+
+    <!-- barra de navegacion de nuestra paguina donde colocamos los diferentes enlaces internos para poder navegar -->
+
+    <nav>
+        <ul>
+            <li class="navegacion"><a class="direccion" href="index.html" >Inicio</a></li>
+            <li class="navegacion"><a class="direccion" href="producto.html">Productos</a></li>
+            <li class="navegacion"><a class="direccion" href="presupuesto.html">Presupuesto</a></li>
+            <li class="navegacion"><a id="contacto" class="direccion" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- seccion contenedor-ubucacion tenemos la imagen que a traves de un enlaces vamos al mapa de google map para localizar nuesta direccion de manera mas eficiente para nuestro clientes ademas de contener informacion como numero de telefo y direccion de Email para que nos puedan mandar correos de ser necesario -->
+
+    <div class="contenedor-ubicacion">
+        <div>
+            <a href="https://www.google.com/maps/place/C.+Sevilla,+20,+Distrito+Centro,+29009+M%C3%A1laga/@36.7240424,-4.4406439,15.25z/data=!4m10!1m2!2m1!1scalle+sevilla+20!3m6!1s0xd72f7a33c77bf1f:0x8af978ea7d15a986!8m2!3d36.7249525!4d-4.4294664!15sChBjYWxsZSBzZXZpbGxhIDIwkgEQZ2VvY29kZWRfYWRkcmVzc-ABAA!16s%2Fg%2F11csgv60q8?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                <img src="./asset/Mapa-ubicacion.jpg" alt="ubicacion">
+            </a>
+            <p>Email: Terceradimension@gmail.com</p>
+            <p>Telefono: 952394169</p>
+            <p>Direccion: Calle Sevilla 20 - Málaga</p>
+        </div>
+    </div>
+
+    <!-- En el pie de pagina tenemos la informacion de politicas de privacidad y la direccion de nuestra empresa, y tenemos enlaces de redes sociales que no envia a cada una de ellas -->
+
+
+    <footer>
+
+        <div>
+            <p>Politicas de privacidad</p>
+            <p>Direccion:Calle Sevilla 20 - Málaga</p>
+        </div>
+
+        <div class="contenedor-redes">
+            <div class="redes-sociales">
+                <a class="direccion" href="https://www.instagram.com" target="_blank"><img src="/asset/Instagram_icon.png.webp" alt="red social instagram" class="imagen-red_social">
+                Instagram</a>
+            </div>
+            <div class="redes-sociales">
+                <a class="direccion" href="https://www.facebook.com" target="_blank">
+                    <img src="/asset/logo-de-facebook-png.webp" alt="red solcial facebook" class="imagen-red_social">
+                    Facebook</a>
+            </div>
+            <div class="redes-sociales">
+                <a class="direccion" href="https://x.com/?lang=es" target="_blank">
+                    <img src="/asset/twiter.png" alt="red social twiter" class="imagen-red_social">
+                    Twitter </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

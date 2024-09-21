@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 8em;
+    background: linear-gradient(249deg, #3e5edd, transparent);
+    border-bottom: solid;
+}
+
+.imagen_cabeza{
+    background-image: url(/asset/terceradimendicion..png);
+    width: 15%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+
+.cabezera{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5em;
+    right: 30px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+}
+
+.navegacion {
+    width: 15%;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.navegacion:hover {
+    cursor: pointer;
+    box-shadow: #0000ff 1px 4px 10px;
+    
+}
+
+ul{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    right: 25px;
+    position: relative;
+}
+
+.direccion {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    
+}
+
+.contenedor-ubicacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 12em;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.redes-sociales{
+    display: flex;
+    margin: 5px;
+}
+
+.redes-sociales a {
+    color: white;
+}
+
+.imagen-red_social{
+    width: 2em;
+    height: 2em;
+}

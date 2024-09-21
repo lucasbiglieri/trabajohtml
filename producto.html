@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        window.onload = function () {
+            document.getElementById("producto").style.boxShadow="blue 1px 4px 10px"
+        }
+    </script>
+    <link rel="stylesheet" href="/Style/style_producto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- cabezera de nuestra pagina tenemos el titulo de nuestra paguina y su logo -->
+
+    <header>
+        <div class="imagen_cabeza"></div>
+        <div class="cabezera">
+            <h1>TerceraDimensión</h1>
+        </div>
+    </header>
+
+    <!-- barra de navegacion de nuestra paguina donde colocamos los diferentes enlaces internos para poder navegar -->
+
+    <nav>
+        <ul>
+            <li class="navegacion"><a class="direccion" href="index.html" >Inicio</a></li>
+            <li class="navegacion"><a id="producto" class="direccion" href="producto.html">Productos</a></li>
+            <li class="navegacion"><a class="direccion" href="presupuesto.html">Presupuesto</a></li>
+            <li class="navegacion"><a class="direccion" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- en esta seccion llamada main tenemos los diferentes productos a disposicion para que nuestros clientes puedan escoger el que mas le llame la atencion -->
+
+    
+    <div class="main">
+
+        <div class="galeria">
+
+            <a href="/presupuesto.html">
+                <img src="/asset/home-casa.jpeg" alt="llavero de hogar" class="producto">
+            </a>
+
+            <a href="/presupuesto.html">
+                <img src="/asset/soporte-auri.webp" alt="llavero de hogar" class="producto">
+            </a>
+
+            <a href="/presupuesto.html">
+                <img src="/asset/soporte-celular.jpg" alt="llavero de hogar" class="producto">
+            </a>
+
+            <a href="/presupuesto.html">
+                <img src="/asset/imagen3d.jpg" alt="llavero de hogar" class="producto">
+            </a>
+
+            <a href="/presupuesto.html">
+                <img src="/asset/bbatman.jpg" alt="llavero de hogar" class="producto">
+            </a>
+
+            <a href="/presupuesto.html">
+                <img src="/asset/home-casa.jpeg" alt="llavero de hogar" class="producto">
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- En el pie de pagina tenemos la informacion de politicas de privacidad y la direccion de nuestra empresa, y tenemos enlaces de redes sociales que no envia a cada una de ellas -->
+
+    <footer>
+
+        <div>
+            <p>Politicas de privacidad</p>            
+            <p>Direccion:Calle Sevilla 20 - Málaga</p>
+        </div>
+
+        <div class="contenedor-redes">
+            <div class="redes-sociales">
+                <a class="direccion" href="https://www.instagram.com" target="_blank"><img src="/asset/Instagram_icon.png.webp" alt="red social instagram" class="imagen-red_social">
+                Instagram</a>
+            </div>
+            <div class="redes-sociales">
+                <a class="direccion" href="https://www.facebook.com" target="_blank">
+                    <img src="/asset/logo-de-facebook-png.webp" alt="red solcial facebook" class="imagen-red_social">
+                    Facebook</a>
+            </div>
+            <div class="redes-sociales">
+                <a class="direccion" href="https://x.com/?lang=es" target="_blank">
+                    <img src="/asset/twiter.png" alt="red social twiter" class="imagen-red_social">
+                    Twitter </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

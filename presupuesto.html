@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        window.onload = function () {
+            document.getElementById("presupuesto").style.boxShadow="blue 1px 4px 10px"
+        }
+    </script>
+    <link rel="stylesheet" href="/Style/style_presupuesto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> 
+
+    <!-- cabezera de nuestra pagina tenemos el titulo de nuestra paguina y su logo -->
+
+ 
+ <header>
+    <div class="imagen_cabeza"></div>
+    <div class="cabezera">
+        <h1>TerceraDimensión</h1>
+    </div>
+</header>
+
+<!-- barra de navegacion de nuestra paguina donde colocamos los diferentes enlaces internos para poder navegar -->
+
+<nav>
+    <ul>
+        <li class="navegacion"><a class="direccion" href="index.html" >Inicio</a></li>
+        <li class="navegacion"><a class="direccion" href="producto.html">Productos</a></li>
+        <li class="navegacion"><a id="presupuesto" class="direccion" href="presupuesto.html">Presupuesto</a></li>
+        <li class="navegacion"><a class="direccion" href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- formulario donde nuestro clientes pondras sus datos para luego poder contactar con cada uno de ellos y darles la informacion que estan solicitando -->
+
+<form class="datos" name="formulario" action="presupuesto.html" method="post">
+   
+    <div class="datos-formulario">
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"  value="" required>
+       
+        <label for="correo">Email</label>
+        <input type="email" name="correo" id="correo"  value="" required>
+       
+        <label for="numero">Telefono</label>
+        <input type="number" name="numero" id="numero" value="" required>
+        
+        <label for="informacion">Descripción</label>
+        <textarea name="informacion" id="informacion" cols="30" rows="6" required></textarea>
+        
+        <div class="casilla">
+            <label for="casilla">Politicas de privacidad</label>
+            <input type="checkbox" name="casilla" id="casilla" value="politicas de privacidad" required>
+        </div>
+
+        <input type="submit" name="boton" value="Enviar">
+        <input type="reset" name="boton" value="Vaciar">
+
+    </div>
+    
+</form>
+
+<!-- En el pie de pagina tenemos la informacion de politicas de privacidad y la direccion de nuestra empresa, y tenemos enlaces de redes sociales que no envia a cada una de ellas -->
+
+<footer>
+
+    <div>
+        <p>Politicas de privacidad</p>
+        <p>Direccion:Calle Sevilla 20 - Málaga</p>
+    </div>
+
+    <div class="contenedor-redes">
+        <div class="redes-sociales">
+            <a class="direccion" href="https://www.instagram.com" target="_blank"><img src="/asset/Instagram_icon.png.webp" alt="red social instagram" class="imagen-red_social">
+            Instagram</a>
+        </div>
+        <div class="redes-sociales">
+            <a class="direccion" href="https://www.facebook.com" target="_blank">
+                <img src="/asset/logo-de-facebook-png.webp" alt="red solcial facebook" class="imagen-red_social">
+                Facebook</a>
+        </div>
+        <div class="redes-sociales">
+            <a class="direccion" href="https://x.com/?lang=es" target="_blank">
+                <img src="/asset/twiter.png" alt="red social twiter" class="imagen-red_social">
+                Twitter </a>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
